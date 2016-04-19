@@ -1,0 +1,24 @@
+{
+  "name": "CSHNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of CSHNetwork.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CSHNetwork",
+  "license": "MIT",
+  "authors": {
+    "CSHNetwork": "492122973@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CSHNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CSHNetwork/Classes/**/*",
+  "resource_bundles": {
+    "CSHNetwork": [
+      "CSHNetwork/Assets/*.png"
+    ]
+  }
+}
