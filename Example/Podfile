@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'CSHNetwork_Example', :exclusive => true do
+  pod 'CSHNetwork', :path => '../'
+end
+
+target 'CSHNetwork_Tests', :exclusive => true do
+  pod 'CSHNetwork', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
